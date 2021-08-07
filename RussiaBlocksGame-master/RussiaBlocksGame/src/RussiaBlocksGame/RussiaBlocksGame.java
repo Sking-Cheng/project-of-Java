@@ -6,12 +6,7 @@ import javax.swing.*;
 import javax.swing.border.Border;
 import javax.swing.border.EtchedBorder;
 
-/**
- * 游戏主类，继承自JFrame类，负责游戏的全局控制。 内含： 
- * 1.一个GameCanvas画布类的实例对象，
- * 2.一个保存当前活动块（RussiaBlock）实例的对象； 
- * 3.一个保存当前控制面板（ControlPanel）实例的对象；
- */
+
 public class RussiaBlocksGame extends JFrame {
     public final static int PER_LINE_SCORE = 100;
     /**
